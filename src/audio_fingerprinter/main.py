@@ -3,8 +3,8 @@ import logging
 import sys
 from pathlib import Path
 
-import click
 import acoustid
+import click
 
 # Configure logging to stderr
 logging.basicConfig(level=logging.INFO, stream=sys.stderr, format="%(message)s")

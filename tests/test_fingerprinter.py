@@ -1,12 +1,13 @@
-import subprocess
 import json
-import pytest
-import sys
 import os
-import tempfile
-import numpy as np
-import soundfile as sf
 import shutil
+import subprocess
+import sys
+import tempfile
+
+import numpy as np
+import pytest
+import soundfile as sf
 
 SAMPLE_RATE = 44100
 
