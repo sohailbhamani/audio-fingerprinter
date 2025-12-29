@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audio-fingerprinter"
+version = "0.1.0"
+description = "A GPL-licensed CLI tool for audio fingerprinting using Chromaprint (pyacoustid)"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "click>=8.0.0",
+    "pyacoustid>=1.2.2",
+    "requests", # pyacoustid uses requests? actually no, but useful if we need API. pyacoustid dependency is `audioread`? No it uses ctypes.
+    # We'll just stick to pyacoustid and click
+]
+
+[project.scripts]
+audio-fingerprinter = "audio_fingerprinter.main:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
