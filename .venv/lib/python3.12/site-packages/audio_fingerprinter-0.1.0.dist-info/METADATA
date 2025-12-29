@@ -1,0 +1,54 @@
+Metadata-Version: 2.4
+Name: audio-fingerprinter
+Version: 0.1.0
+Summary: A GPL-licensed CLI tool for audio fingerprinting using Chromaprint (pyacoustid)
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: pyacoustid>=1.2.2
+Requires-Dist: requests
+Dynamic: license-file
+
+# audio-fingerprinter
+
+Audio fingerprinting CLI for deduplication and AcoustID/MusicBrainz lookup. Wraps [Chromaprint](https://acoustid.org/chromaprint).
+
+## Features
+
+- **Audio Fingerprinting** — Generate unique fingerprints
+- **Duplicate Detection** — Find duplicate tracks
+- **AcoustID Lookup** — Identify unknown tracks
+- **MusicBrainz Integration** — Fetch metadata
+
+## Installation
+
+```bash
+pip install audio-fingerprinter
+```
+
+## Usage
+
+```bash
+# Generate fingerprint
+audio-fingerprinter fingerprint track.mp3
+
+# Find duplicates in a directory
+audio-fingerprinter dedupe ./music/
+
+# Lookup track on AcoustID
+audio-fingerprinter lookup track.mp3
+```
+
+## Requirements
+
+- Python 3.9+
+- Chromaprint
+
+## License
+
+MIT — See [LICENSE](LICENSE)
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
