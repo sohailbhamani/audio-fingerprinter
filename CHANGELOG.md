@@ -2,6 +2,13 @@
 
 
 
+## v0.0.1 (2025-12-30)
+
+### Fix
+
+* fix: initial release bump to 0.0.1 ([`831acb3`](https://github.com/sohailbhamani/audio-fingerprinter/commit/831acb323d0cae56386529d0ec34d7e97d86a94d))
+
+
 ## v0.0.0 (2025-12-30)
 
 ### Chore
