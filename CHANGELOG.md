@@ -2,6 +2,13 @@
 
 
 
+## v0.0.2 (2026-01-02)
+
+### Fix
+
+* fix(ci): use RELEASE_TOKEN for semantic-release bypass ([`c6a1e8b`](https://github.com/sohailbhamani/audio-fingerprinter/commit/c6a1e8becf7d834e2d9fa2498ad7ba581a465d24))
+
+
 ## v0.0.1 (2025-12-30)
 
 ### Fix
