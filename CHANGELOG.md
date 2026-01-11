@@ -103,7 +103,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`02566ec`](https://github.com/sohailbhamani/audio-fingerprinter/commit/02566ec2adee5e9ab9d3b2acb1fae40e2ff5274c))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`02566ec`](https://github.com/sohailbhamani/audio-fingerprinter/commit/02566ec2adee5e9ab9d3b2acb1fae40e2ff5274c))
 
 * chore: add OSS files (README, CONTRIBUTING, CODE_OF_CONDUCT, templates) ([`e53851a`](https://github.com/sohailbhamani/audio-fingerprinter/commit/e53851af1579fdda7576f6351e317b6ceb0e141e))
 
@@ -125,7 +125,7 @@ Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`02566ec`](https://github.co
 
 ---------
 
-Co-authored-by: Sohail &lt;sohail@waxlogic.io&gt; ([`8073530`](https://github.com/sohailbhamani/audio-fingerprinter/commit/807353066eb17d515ea6a4ad59d03612ee5e6b62))
+Co-authored-by: Sohail &lt;sohailbhamani@users.noreply.github.com&gt; ([`8073530`](https://github.com/sohailbhamani/audio-fingerprinter/commit/807353066eb17d515ea6a4ad59d03612ee5e6b62))
 
 ### Unknown
 
